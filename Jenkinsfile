@@ -54,19 +54,7 @@ pipeline {
                 }
             }
         }
-        stage('Publish HTML Report') {
-            steps {
-                // Publier le rapport HTML dans Jenkins
-                publishHTML([
-                    allowMissing: false,
-                    alwaysLinkToLastBuild: true,
-                    keepAll: true,
-                    reportDir: 'cypress/reports',
-                    reportFiles: 'report.html',
-                    reportName: 'Cypress Test Report'
-                ])
-            }
-        }
+        
     }
 
     post {
