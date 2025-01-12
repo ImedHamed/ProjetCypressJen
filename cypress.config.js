@@ -19,12 +19,15 @@ module.exports = defineConfig({
     },
 
     "reporter": 'mochawesome',
-    reporterOptions: {
-      reportDir: "cypress/reports", // Dossier où les fichiers JSON seront générés
-      overwrite: false,            // Conserver les fichiers existants
-      html: true,                 // Désactiver les rapports HTML individuels
-      json: true,                  // Activer les fichiers JSON
+    "reporterOptions": {
+      "reportDir": "cypress/reports",
+      "overwrite": false,
+      "html": true,
+      "json": true,
+      "charts": true,
     },
+
+    
   },
   screenshotOnRunFailure: true,
   trashAssetsBeforeRuns: true,

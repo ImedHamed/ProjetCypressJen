@@ -5,9 +5,9 @@
     "passes": 4,
     "pending": 0,
     "failures": 0,
-    "start": "2025-01-12T15:51:24.631Z",
-    "end": "2025-01-12T15:51:33.724Z",
-    "duration": 9093,
+    "start": "2025-01-12T16:13:00.042Z",
+    "end": "2025-01-12T16:13:11.517Z",
+    "duration": 11475,
     "testsRegistered": 4,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "82d1ba98-6831-41c7-87e4-d3e67df17ccc",
+      "uuid": "673463c0-d3a1-41fc-a3ae-30bc552a7a50",
       "title": "",
       "fullFile": "cypress\\e2e\\LoginTest.cy.js",
       "file": "cypress\\e2e\\LoginTest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "e77a9726-4a83-4fd7-9d54-9c445752b98d",
+          "uuid": "7cbde88a-1007-4f51-90f7-cda2f6b65d68",
           "title": "Basic Login Tests on Orange HRM Application",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Verify Login to the HRM App is working",
               "fullTitle": "Basic Login Tests on Orange HRM Application Verify Login to the HRM App is working",
               "timedOut": null,
-              "duration": 3251,
+              "duration": 3999,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\e2e\\\\LoginTest.cy.js\"\n}",
               "code": "cy.visit('/');\ncy.get('input[placeholder=\"Username\"]').type(\"Admin\");\ncy.get('input[placeholder=\"Password\"]').type(\"admin123\");\ncy.get('button[type=\"submit\"]').click({\n  force: true\n});\n// Use the \"should\" command to assert element visibility\ncy.get('.oxd-userdropdown') // Replace '.element-selector' with the actual selector of the element\n.should('be.visible'); // Use 'be.visible' to assert that the element is visible",
               "err": {},
-              "uuid": "ec81b81f-a9cd-4f70-857d-efb276348a5b",
-              "parentUUID": "e77a9726-4a83-4fd7-9d54-9c445752b98d",
+              "uuid": "a924ad21-8c60-456f-b22c-6d54ac9b6f0d",
+              "parentUUID": "7cbde88a-1007-4f51-90f7-cda2f6b65d68",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Verify Login to the HRM App with invalid credentials",
               "fullTitle": "Basic Login Tests on Orange HRM Application Verify Login to the HRM App with invalid credentials",
               "timedOut": null,
-              "duration": 2547,
+              "duration": 3277,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\e2e\\\\LoginTest.cy.js\"\n}",
               "code": "cy.visit('/');\ncy.get('input[placeholder=\"Username\"]').type(\"Admin\");\ncy.get('input[placeholder=\"Password\"]').type(\"admin1235\");\ncy.get('button[type=\"submit\"]').click({\n  force: true\n});\n// Use the \"should\" command to assert element visibility\ncy.get('div[role=\"alert\"]') // Replace '.element-selector' with the actual selector of the element\n.should('be.visible'); // Use 'be.visible' to assert that the element is visible",
               "err": {},
-              "uuid": "9b8d6501-7b6e-4d4d-9362-e9a9bfbb793d",
-              "parentUUID": "e77a9726-4a83-4fd7-9d54-9c445752b98d",
+              "uuid": "a2b99bb6-05f8-4724-ae46-8024e8b28bd6",
+              "parentUUID": "7cbde88a-1007-4f51-90f7-cda2f6b65d68",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "Verify Login to the HRM App with invalid credentials user",
               "fullTitle": "Basic Login Tests on Orange HRM Application Verify Login to the HRM App with invalid credentials user",
               "timedOut": null,
-              "duration": 1913,
+              "duration": 2185,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -83,8 +83,8 @@
               "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\e2e\\\\LoginTest.cy.js\"\n}",
               "code": "cy.visit('/');\ncy.get('input[placeholder=\"Username\"]').type(\"Adminee\");\ncy.get('input[placeholder=\"Password\"]').type(\"admin123\");\ncy.get('button[type=\"submit\"]').click({\n  force: true\n});\n// Use the \"should\" command to assert element visibility\ncy.get('div[role=\"alert\"]') // Replace '.element-selector' with the actual selector of the element\n.should('be.visible'); // Use 'be.visible' to assert that the element is visible",
               "err": {},
-              "uuid": "f6ebc128-b4d3-405e-a861-66d76bcfd945",
-              "parentUUID": "e77a9726-4a83-4fd7-9d54-9c445752b98d",
+              "uuid": "d76bb6af-a5a8-4c2e-af19-2fb24d4ace0f",
+              "parentUUID": "7cbde88a-1007-4f51-90f7-cda2f6b65d68",
               "isHook": false,
               "skipped": false
             },
@@ -92,7 +92,7 @@
               "title": "Login Forgot your password link navigation is working",
               "fullTitle": "Basic Login Tests on Orange HRM Application Login Forgot your password link navigation is working",
               "timedOut": null,
-              "duration": 1267,
+              "duration": 1814,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -101,23 +101,23 @@
               "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\e2e\\\\LoginTest.cy.js\"\n}",
               "code": "cy.visit('/');\ncy.get('.oxd-text.oxd-text--p.orangehrm-login-forgot-header').click({\n  force: true\n});\n// Use the \"should\" command to assert element visibility\ncy.get('button[type=\"button\"]') // Replace '.element-selector' with the actual selector of the element\n.should('be.visible');",
               "err": {},
-              "uuid": "ed4e934e-a3a7-4bdb-b73d-57f3e26f6c90",
-              "parentUUID": "e77a9726-4a83-4fd7-9d54-9c445752b98d",
+              "uuid": "466cca5b-4604-4f2e-95ea-93cade206065",
+              "parentUUID": "7cbde88a-1007-4f51-90f7-cda2f6b65d68",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "ec81b81f-a9cd-4f70-857d-efb276348a5b",
-            "9b8d6501-7b6e-4d4d-9362-e9a9bfbb793d",
-            "f6ebc128-b4d3-405e-a861-66d76bcfd945",
-            "ed4e934e-a3a7-4bdb-b73d-57f3e26f6c90"
+            "a924ad21-8c60-456f-b22c-6d54ac9b6f0d",
+            "a2b99bb6-05f8-4724-ae46-8024e8b28bd6",
+            "d76bb6af-a5a8-4c2e-af19-2fb24d4ace0f",
+            "466cca5b-4604-4f2e-95ea-93cade206065"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 8978,
+          "duration": 11275,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -141,7 +141,7 @@
       "options": {
         "quiet": false,
         "reportFilename": "mochawesome",
-        "saveHtml": true,
+        "saveHtml": false,
         "saveJson": true,
         "consoleReporter": "spec",
         "useInlineDiffs": false,
@@ -151,10 +151,10 @@
     },
     "marge": {
       "options": {
-        "reportDir": "cypress/reports",
         "overwrite": false,
-        "html": true,
-        "json": true
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
       },
       "version": "6.2.0"
     }
