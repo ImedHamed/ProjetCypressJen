@@ -7,15 +7,7 @@ module.exports = defineConfig({
   e2e: {
     baseUrl: 'https://opensource-demo.orangehrmlive.com',
     setupNodeEvents(on, config) {
-      on('before:run', async (details) => {
-        console.log('override before:run');
-        await beforeRunHook(details);
-      });
-
-      on('after:run', async () => {
-        console.log('override after:run');
-        await afterRunHook();
-      });
+      
     },
     "retries": {
       // Configure retry attempts for `cypress run`
@@ -36,5 +28,5 @@ module.exports = defineConfig({
   },
   screenshotOnRunFailure: true,
   trashAssetsBeforeRuns: true,
-  video: true
+  video: true,
 });
