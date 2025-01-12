@@ -8,6 +8,8 @@ module.exports = defineConfig({
     baseUrl: 'https://opensource-demo.orangehrmlive.com',
     setupNodeEvents(on, config) {
       
+    
+      
     },
     "retries": {
       // Configure retry attempts for `cypress run`

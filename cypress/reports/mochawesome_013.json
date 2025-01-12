@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-01-12T16:28:56.062Z",
+    "end": "2025-01-12T16:29:00.552Z",
+    "duration": 4490,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "83c8cb93-73e6-4cc2-8f34-7d31f3e640b6",
+      "title": "",
+      "fullFile": "cypress\\e2e\\ClaimTest.cy.js",
+      "file": "cypress\\e2e\\ClaimTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6b770695-a078-499b-996c-a25ae0aed7db",
+          "title": "Buzz Tests on Orange HRM Application",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify Claim module is displayed in Buzz",
+              "fullTitle": "Buzz Tests on Orange HRM Application Verify Claim module is displayed in Buzz",
+              "timedOut": null,
+              "duration": 4441,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\e2e\\\\ClaimTest.cy.js\"\n}",
+              "code": "cy.get('a[href=\"/web/index.php/claim/viewClaimModule\"]').as('ClaimModule'); // creating alisas\ncy.get('@ClaimModule').should('be.visible').click(); //using alisas\ncy.get('button[type=\"submit\"]').click;",
+              "err": {},
+              "uuid": "f830fae6-4aec-4d37-81db-4ed88e8c6f7a",
+              "parentUUID": "6b770695-a078-499b-996c-a25ae0aed7db",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f830fae6-4aec-4d37-81db-4ed88e8c6f7a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4441,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
