@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2025-01-12T16:23:52.640Z",
-    "end": "2025-01-12T16:23:57.313Z",
-    "duration": 4673,
+    "start": "2025-01-12T16:47:20.978Z",
+    "end": "2025-01-12T16:47:28.140Z",
+    "duration": 7162,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "92780bb3-090a-46ce-bb10-0317638e1374",
+      "uuid": "16ac9008-3d37-4969-a571-a4081acdf24a",
       "title": "",
       "fullFile": "cypress\\e2e\\InfoPersTest.cy.js",
       "file": "cypress\\e2e\\InfoPersTest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "9aade9a6-e0d6-4423-83f6-38817f7709b4",
+          "uuid": "0ab35ac4-2a16-49dd-bd9e-735a83dbea57",
           "title": "Buzz Tests on Orange HRM Application",
           "fullFile": "",
           "file": "",
@@ -38,29 +38,29 @@
               "title": "Verify My Infor module is displayed in Buzz",
               "fullTitle": "Buzz Tests on Orange HRM Application Verify My Infor module is displayed in Buzz",
               "timedOut": null,
-              "duration": 4649,
+              "duration": 7111,
               "state": "passed",
-              "speed": "fast",
+              "speed": "medium",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\e2e\\\\InfoPersTest.cy.js\"\n}",
               "code": "cy.get('@myinfo').should('be.visible').click(); //using alisas\n//cy.get('a[href=\"/web/index.php/pim/contactDetails/empNumber/7\"]')\n//.should('be.visible').contains('Personal Details')",
               "err": {},
-              "uuid": "72d99e2a-57bc-4ddd-af0c-7db7ac4c7af0",
-              "parentUUID": "9aade9a6-e0d6-4423-83f6-38817f7709b4",
+              "uuid": "3da4ae78-461c-4706-8bf0-51aabd6037db",
+              "parentUUID": "0ab35ac4-2a16-49dd-bd9e-735a83dbea57",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "72d99e2a-57bc-4ddd-af0c-7db7ac4c7af0"
+            "3da4ae78-461c-4706-8bf0-51aabd6037db"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 4649,
+          "duration": 7111,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

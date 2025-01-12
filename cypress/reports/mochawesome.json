@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2025-01-12T16:19:40.151Z",
-    "end": "2025-01-12T16:19:47.079Z",
-    "duration": 6928,
+    "start": "2025-01-12T16:46:19.205Z",
+    "end": "2025-01-12T16:46:25.976Z",
+    "duration": 6771,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "f30e9991-0da6-49a8-8430-d384526c1f19",
+      "uuid": "d85179dc-ce92-414d-8e73-78ce2c6dd29b",
       "title": "",
       "fullFile": "cypress\\e2e\\BuzzTest.cy.js",
       "file": "cypress\\e2e\\BuzzTest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "4bddbad7-09eb-45a3-8a74-ec8c4ec05c8e",
+          "uuid": "11c04fc8-0690-4601-b618-6383e58959ff",
           "title": "Buzz Tests on Orange HRM Application",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Verify user able to post in newsfeed of Buzz Module",
               "fullTitle": "Buzz Tests on Orange HRM Application Verify user able to post in newsfeed of Buzz Module",
               "timedOut": null,
-              "duration": 6845,
+              "duration": 6670,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\e2e\\\\BuzzTest.cy.js\"\n}",
               "code": "cy.get('textarea').should('be.visible').type('\"Hey My post\"');\ncy.get('button[type=\"submit\"]').click({\n  force: true\n});\ncy.get('.oxd-toast-content.oxd-toast-content--success').should('be.visible').contains('Successfully Saved');",
               "err": {},
-              "uuid": "bb6c1c4d-c2b9-4801-8e92-b9dc57e06ec0",
-              "parentUUID": "4bddbad7-09eb-45a3-8a74-ec8c4ec05c8e",
+              "uuid": "3eca52f9-67a6-415d-978c-f7fa912eba10",
+              "parentUUID": "11c04fc8-0690-4601-b618-6383e58959ff",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "bb6c1c4d-c2b9-4801-8e92-b9dc57e06ec0"
+            "3eca52f9-67a6-415d-978c-f7fa912eba10"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 6845,
+          "duration": 6670,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

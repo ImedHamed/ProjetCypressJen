@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2025-01-12T16:23:44.195Z",
-    "end": "2025-01-12T16:23:49.628Z",
-    "duration": 5433,
+    "start": "2025-01-12T16:47:12.776Z",
+    "end": "2025-01-12T16:47:17.790Z",
+    "duration": 5014,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "a4de1d5c-a28d-4bb7-83d7-b60df519835c",
+      "uuid": "4b265fbd-4114-4e68-a0ce-3a49800725d8",
       "title": "",
       "fullFile": "cypress\\e2e\\ClaimTest.cy.js",
       "file": "cypress\\e2e\\ClaimTest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "9d642882-83fc-4e83-b860-454b5c0e53b9",
+          "uuid": "4d3b6598-b361-462f-a61a-5e041c20372a",
           "title": "Buzz Tests on Orange HRM Application",
           "fullFile": "",
           "file": "",
@@ -38,29 +38,29 @@
               "title": "Verify Claim module is displayed in Buzz",
               "fullTitle": "Buzz Tests on Orange HRM Application Verify Claim module is displayed in Buzz",
               "timedOut": null,
-              "duration": 5379,
+              "duration": 4966,
               "state": "passed",
-              "speed": "medium",
+              "speed": "fast",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\e2e\\\\ClaimTest.cy.js\"\n}",
               "code": "cy.get('a[href=\"/web/index.php/claim/viewClaimModule\"]').as('ClaimModule'); // creating alisas\ncy.get('@ClaimModule').should('be.visible').click(); //using alisas\ncy.get('button[type=\"submit\"]').click;",
               "err": {},
-              "uuid": "a2d70d31-9d62-4ead-a8a5-2f59bc62c7dc",
-              "parentUUID": "9d642882-83fc-4e83-b860-454b5c0e53b9",
+              "uuid": "1646d3f3-a2cc-40a0-b3e8-35cca4120e3e",
+              "parentUUID": "4d3b6598-b361-462f-a61a-5e041c20372a",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "a2d70d31-9d62-4ead-a8a5-2f59bc62c7dc"
+            "1646d3f3-a2cc-40a0-b3e8-35cca4120e3e"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 5379,
+          "duration": 4966,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
